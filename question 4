@@ -1,1 +1,5 @@
-
+def main():
+	print("This program determines the distance to a lightning strike based on time elapsed between the flash and the sound of thunder")
+	x=eval(input("Time elapsed, in seconds, between the flash and sound of thunder:"))
+	distance=(x*1100)
+	print("The distance to the lightning strike based on time is:", distance, "ft")
