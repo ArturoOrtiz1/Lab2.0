@@ -1,1 +1,12 @@
-
+def main():
+	print("This program will compute the molecular weight of a carbohydrate in grams per mole based on the number of hydrogen, carbon, and oxygen atoms in the molecule.")
+	Hydro=eval(input("Number of Hydrogen Atoms:"))
+	Carb=eval(input("Number of Carbon Atoms:"))
+	Ox=eval(input("Number of Oxygen Atoms:"))
+	
+	H=1.00794
+	C=12.0107
+	O=15.9994
+	print()
+	Molecular=((Hydro*H)+(Carb*C)+(Ox*O))
+	print("The molecular weight of the carbohydrate is:",Molecular)
