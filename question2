@@ -1,3 +1,6 @@
 def main():
   print("This program calculates the cost per square inch of a circular pizza given its diameter and price.")
- 
+  d=eval(input("Diameter of pizza:"))
+  p=eval(input("Price of pizza:"))
+  price= ((math.pi*(d/2)**2)/p)
+  print("The price per square inch is:",price)
